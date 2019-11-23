@@ -52,7 +52,7 @@ print(a)
 
 # Setting a seed allows you to get the same "random" numbers that we do
 # This is really nice for testing, so you can compare results
-np.random.seed(101) # watch video for details
+np.random.seed(101)
 arr = np.random.randint(0,100,10)
 print(arr)
 # If you call this again, you will get a different set of random integers than
@@ -111,7 +111,3 @@ print(mat > 50)
 print(mat[mat>50])
 
 
-# That is all for NumPy! NumPy is a really large library that does a lot
-# more than what we showed here. But for our use cases in visualization, these
-# are the basics we need to know for now. Later on we may introduce other
-# NumPy concepts.
